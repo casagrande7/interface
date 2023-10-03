@@ -5,7 +5,7 @@ interface Carro{
 
 class CarroCompacto implements Carro{
     acelerar(velocidade: number): void {
-        console.log("O carro compacto acelerou para" +  velocidade + "Km/h");
+        console.log("O carro compacto acelerou para" +  velocidade + " Km/h");
     }
     frear(): void {
         console.log("O carro compacto freou.");
@@ -14,7 +14,7 @@ class CarroCompacto implements Carro{
 
 class CarrosEsportivo implements Carro{
     acelerar(velocidade: number): void {
-        console.log("O carro esportivo acelerou para" +  velocidade + "Km/h");
+        console.log("O carro esportivo acelerou para" +  velocidade + " Km/h");
     }
 
     frear(): void {
